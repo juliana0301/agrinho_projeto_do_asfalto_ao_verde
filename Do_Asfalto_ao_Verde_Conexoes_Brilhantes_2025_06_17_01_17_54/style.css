@@ -1,0 +1,63 @@
+/* Estilo geral da página */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4ff;
+  font-family: 'Georgia', serif;
+  color: #333;
+}
+
+/* Estilo do canvas */
+canvas {
+  display: block;
+  margin: 20px auto;
+  border: 4px solid #ccc;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  background-color: #1e1e3a; /* cor de fundo padrão do sketch */
+}
+
+/* Botões (Próximo, Recomeçar etc.) */
+button {
+  font-size: 16px;
+  font-family: 'Georgia', serif;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Estilo para falas e balões */
+.speech-bubble {
+  background-color: #fff;
+  border: 2px solid #aaa;
+  border-radius: 12px;
+  padding: 8px 12px;
+  max-width: 300px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  font-size: 14px;
+  color: #000;
+}
+
+/* Títulos e textos maiores */
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
+  text-align: center;
+  color: #333;
+}
+
+/* Estilo para efeitos de finalização */
+.celebration-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
